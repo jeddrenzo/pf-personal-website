@@ -1,14 +1,8 @@
 # pf-personal-website
 
-
-
-\## Project Description
-
+## Project Description
 My personal website that contains my contact information, background, projects, and experiences.
 
-
-
-\## Technologies Used
-
+## Technologies Used
 HTML, CSS
 
