@@ -1,0 +1,59 @@
+.experience-page {
+    max-width: 1000px;
+    margin: 120px auto 50px;
+    padding: 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.experience-page h1 {
+    color: #2c4d40;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experience-page p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience-item {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px 25px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.experience-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.exp-duration {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.experience-item p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
